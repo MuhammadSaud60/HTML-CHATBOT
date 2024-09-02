@@ -17,7 +17,7 @@ body{
     background: linear-gradient(to right, #003ba8ee, #08307aee);
 }
 
-body p, a{
+.developer p, a{
     margin: 1.5em 0;
     color: #fff3f3;
     text-decoration: none;

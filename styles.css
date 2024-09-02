@@ -12,10 +12,17 @@ html,body{
 body{
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
     background: linear-gradient(to right, #003ba8ee, #08307aee);
 }
 
+body p, a{
+    margin: 1.5em 0;
+    color: #fff3f3;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+}
 .chatbot{
     width: 500px;
     max-width: 80%;
